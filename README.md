@@ -1,6 +1,8 @@
 ## Logo
 #### A streaming parser for the [LOGO](http://en.wikipedia.org/wiki/Logo_(programming_language)) programming language.
 
+[![Build Status](https://secure.travis-ci.org/thisandagain/logo.png?branch=master)](http://travis-ci.org/thisandagain/logo)
+
 ### Installation
 ```bash
 npm install logo
