@@ -1,0 +1,21 @@
+{
+    "author": "DIY Co. <https://diy.org>",
+    "name": "logo",
+    "description": "A streaming interpreter for the logo programming language.",
+    "version": "0.1.0",
+    "dependencies": {
+        "async": "0.1.X",
+        "bufferstream": "0.5.X",
+        "fork-pool": "0.0.X"
+    },
+    "devDependencies": {
+        "tap": "0.2.X"
+    },
+    "optionalDependencies": {},
+    "engines": {
+        "node": ">=0.6"
+    },
+    "scripts": {
+        "test": "tap test/*.js"
+    }
+}
