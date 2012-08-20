@@ -11,7 +11,7 @@ npm install logo
 var fs      = require('fs'),
     logo    = require('logo');
 
-fs.createReadStream('aWholeCatLoadofLogo.txt').pipe(logo.stream).pipe(process.stdout);
+fs.createReadStream('aWholeCatLoadOfLogo.txt').pipe(logo.stream).pipe(process.stdout);
 ```
 
 ### Single command use
