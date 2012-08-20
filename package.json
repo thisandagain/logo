@@ -2,6 +2,7 @@
     "author": "DIY Co. <https://diy.org>",
     "name": "logo",
     "description": "A streaming interpreter for the logo programming language.",
+    "homepage" : "https://github.com/thisandagain/logo",
     "version": "0.1.0",
     "dependencies": {
         "async": "0.1.X",

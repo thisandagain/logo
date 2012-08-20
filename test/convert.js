@@ -14,7 +14,6 @@ var fs      = require('fs'),
     logo    = require('../lib/index.js');
 
 async.auto({
-
     basic:      function (callback) {
         logo.convert('repeat 4 [fd 50 rt 90]', callback);
     },
@@ -56,7 +55,6 @@ async.auto({
 
         callback();
     }]
-
 }, function (err, obj) {
     test("Catch errors", function (t) {
         t.equal(err, null, "Errors should be null");
