@@ -1,5 +1,5 @@
 ## Logo
-#### A streaming parser for the [LOGO](http://en.wikipedia.org/wiki/Logo_(programming_language)) programming language.
+#### A streaming parser for the [LOGO](http://en.wikipedia.org/wiki/Logo_(programming_language\)) programming language.
 
 ### Installation
 ```bash
