@@ -1,5 +1,5 @@
 ## Logo
-#### A streaming parser for the [LOGO](http://en.wikipedia.org/wiki/Logo_(programming_language)) programming language.
+#### A streaming parser for the [LOGO](http://en.wikipedia.org/wiki/Logo_(programming_language\)) programming language.
 
 [![Build Status](https://secure.travis-ci.org/thisandagain/logo.png?branch=master)](http://travis-ci.org/thisandagain/logo)
 
@@ -13,7 +13,7 @@ npm install logo
 var fs      = require('fs'),
     logo    = require('logo');
 
-fs.createReadStream('aWholeCatLoadofLogo.txt').pipe(logo.stream).pipe(process.stdout);
+fs.createReadStream('aWholeCatLoadOfLogo.txt').pipe(logo.stream).pipe(process.stdout);
 ```
 
 ### Single command use
