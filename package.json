@@ -3,7 +3,8 @@
     "name": "logo",
     "description": "A streaming interpreter for the logo programming language.",
     "homepage" : "https://github.com/thisandagain/logo",
-    "version": "0.1.0",
+    "version": "0.1.1",
+    "main": "./lib/index.js",
     "dependencies": {
         "async": "0.1.X",
         "bufferstream": "0.5.X",
