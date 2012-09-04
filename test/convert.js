@@ -29,36 +29,35 @@ async.auto({
     },
 
     test:   ['basic', 'complex', 'error', function (callback, obj) {
-        test("Component definition", function (t) {
-            t.type(logo, "object", "Component should be an object");
-            t.type(logo.convert, "function", "Method should be a function");
-            t.type(logo.stream, "object", "Method should be an object");
+        test('Component definition', function (t) {
+            t.type(logo, 'object', 'Component should be an object');
+            t.type(logo.convert, 'function', 'Method should be a function');
+            t.type(logo.stream, 'object', 'Method should be an object');
             t.end();
         });
 
-        test("Basic", function (t) {
-            t.type(obj.basic, "object", "Results should be an object");
-            t.equal(obj.basic.length, 10, "Results should be proper length");
+        test('Basic', function (t) {
+            t.type(obj.basic, 'object', 'Results should be an object');
+            t.equal(obj.basic.length, 10, 'Results should be proper length');
             t.end();
         });
 
-        test("Complex", function (t) {
-            t.type(obj.complex, "object", "Results should be an object");
-            t.equal(obj.complex.length, 15052, "Results should be proper length");
+        test('Complex', function (t) {
+            t.type(obj.complex, 'object', 'Results should be an object');
+            t.equal(obj.complex.length, 15052, 'Results should be proper length');
             t.end();
         });
 
-        test("Error", function (t) {
-            t.type(obj.error, "string", "Results should be a string");
+        test('Error', function (t) {
+            t.type(obj.error, 'string', 'Results should be a string');
             t.end();
         });
 
         callback();
     }]
 }, function (err, obj) {
-    test("Catch errors", function (t) {
-        t.equal(err, null, "Errors should be null");
+    test('Catch errors', function (t) {
+        t.equal(err, null, 'Errors should be null');
         t.end();
-        process.exit();
     });
 });
