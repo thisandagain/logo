@@ -29,6 +29,8 @@ async.auto({
     },
 
     test:   ['basic', 'complex', 'error', function (callback, obj) {
+        console.dir(obj.basic);
+
         test('Component definition', function (t) {
             t.type(logo, 'object', 'Component should be an object');
             t.type(logo.convert, 'function', 'Method should be a function');
@@ -39,6 +41,9 @@ async.auto({
         test('Basic', function (t) {
             t.type(obj.basic, 'object', 'Results should be an object');
             t.equal(obj.basic.length, 10, 'Results should be proper length');
+            t.ok(typeof obj.basic[0].begin === 'object', 'First item should be the begin command');             // GH-1
+            t.ok(typeof obj.basic[9].begin !== 'object', 'First item should not include the begin command');    // GH-1
+            t.ok(typeof obj.basic[9].end === 'object', 'First item should be the end command');                 // GH-1
             t.end();
         });
 
