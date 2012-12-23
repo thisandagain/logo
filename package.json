@@ -1,7 +1,7 @@
 {
     "author": "DIY Co. <https://diy.org>",
     "name": "logo",
-    "description": "A streaming interpreter for the logo programming language.",
+    "description": "A streaming interpreter for the LOGO programming language.",
     "homepage": "https://github.com/thisandagain/logo",
     "version": "0.1.3",
     "main": "./lib/index.js",
