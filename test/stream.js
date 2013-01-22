@@ -32,7 +32,7 @@ async.auto({
 
         test('Stream', function (t) {
             t.type(buffer, 'string', 'Results should be a string');
-            t.ok(buffer.length === 866923, 'Results should be proper length');
+            t.ok(buffer.length === 1195113, 'Results should be proper length');
             t.end();
         });
 
