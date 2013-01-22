@@ -1,23 +1,21 @@
 {
-    "author": "DIY Co. <https://diy.org>",
-    "name": "logo",
-    "description": "A streaming interpreter for the LOGO programming language.",
-    "homepage": "https://github.com/thisandagain/logo",
-    "version": "0.1.3",
-    "main": "./lib/index.js",
-    "dependencies": {
-        "async": "~0.1.22",
-        "bufferstream": "~0.5.1",
-        "underscore": "~1.4.3"
-    },
-    "devDependencies": {
-        "tap": "~0.3.3"
-    },
-    "optionalDependencies": {},
-    "engines": {
-        "node": ">=0.6"
-    },
-    "scripts": {
-        "test": "tap test/*.js"
-    }
+  "author": "DIY Co. <https://diy.org>",
+  "name": "logo",
+  "description": "A streaming interpreter for the LOGO programming language.",
+  "homepage": "https://github.com/thisandagain/logo",
+  "version": "0.2.0",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "async": "~0.1.22"
+  },
+  "devDependencies": {
+    "tap": "~0.3.3"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.6"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  }
 }
