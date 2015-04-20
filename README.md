@@ -3,7 +3,7 @@
 
 [![Build Status](https://secure.travis-ci.org/thisandagain/logo.png?branch=master)](http://travis-ci.org/thisandagain/logo)
 
-The `logo` module converts [LOGO](http://en.wikipedia.org/wiki/Logo_(programming_language\)) statements into an easily applied command stream. As per convention, the parser can be used either in a standard callback pattern or as a readable/writable stream.
+The `logo` module converts [LOGO](http://el.media.mit.edu/logo-foundation/logo/programming.html) statements into an easily applied command stream. As per convention, the parser can be used either in a standard callback pattern or as a readable/writable stream.
 
 ### Installation
 ```bash
